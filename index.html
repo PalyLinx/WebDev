@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<script>
+function affiche()
+{
+ var x=document.form1.email.value;
+ var y=document.form1.password.value;
+ if(x=="Pack@Gmail.Com"  && y=="123")
+  {
+  alert(" Connect  ");
+  }
+  else
+  {
+  alert(" no Connect  ");
+  }
+ 
+ var x,y,r;
+
+x=prompt('Insert Nom  :')
+y=prompt('Insert Last Nom  :')
+r=x+y;
+alert(' Votre Nom Prenom et :'+r);
+
+
+ 
+ 
+}
+</script>
+
+
+<br><br>
+<img src="fb_icon_325x325.png" width="5%" heigth="5%"><br><br>
+<form name="form1">
+  Se connecter a Facebook <br><br>
+  Adresse e-mail.com : <input type="text" name="email" size="20"><br><br>
+  Mot de Passe : <input type="text" name="password" size="20"><br><br>
+  <input type="button" name="test" size="60"value="Connection" onclick="affiche()" ><br><br>
+</form>
+
+
+</body>
+
+
+
+</html>
